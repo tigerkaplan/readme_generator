@@ -2,15 +2,15 @@
 ![Github license](https://img.shields.io/badge/license-None-blue.svg)
 
 ## Description
-Creating a useful readme.md file for junior / senior developers
+The readme.md file generator is a user friendy duide to generate easily peofessional documents fr GitHub. The project has clear instructions for setup, usage, contributionsand other required and optional sections for a professional lookimg readme file. It isdesigned to ensure everyone can easily understand and using project functionalities.
 
 ## Table of Contents
-* [Description](#Description)
-* [Deployment](#Deployment)
-* [Demo](#Demo)
-* [Screenshot](#Screenshot)
-* [Languages](#Languages)
-* [How to Use This Application](#HowToUseThisApplication)
+* [Description](description)
+* [Deployment](#deployment)
+* [Demo](#demo)
+* [Screenshot](#screenshot)
+* [Languages](#languages)
+* [Usage](#usage)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Author](#author)
@@ -21,20 +21,26 @@ Creating a useful readme.md file for junior / senior developers
 To deploy this project run
 ``` npm run deploy ```
 ## Demo
-![ReadMe.js Demo](../assets/Readme_file.gif) 
+https://www.youtube.com/watch?v=uUla1IiF3gM
 ## Screenshot
-![index.js_generateMarkDown.js](../assets/index.js_generateMarkDown.js.jpg "Index & MarkDownGenerator.js")
+<p>Output of the project in gif format</p>
+
+![ReadMe.js](./assets/Readme_file.gif) 
+<br>
+<p>Output of the project in image format</p>
+<br>
+
+![index.js_generateMarkDown.js](./assets/index.js_generateMarkDown.js.jpg)
 ## Languages
-NodeJs
+Javascript, NodeJs
 ## Usage
-This project can be used a professional readme generator
+This project can be used The project allows that to create a readme.md file as professionally as well as not spending long time for projects.
 ## Installation
-Install readme_generator with npm 
+Install readme_generator with this project locally, firstly clone the repository to your local machine and install npm   ``` npm install ```
 ## Contributors
 Contributions are always welcome!
-(https://github.com/)
 ## Tests
- ```npm run test```
+``` npm run test ```
 ## Author
 [@tigerkaplan](https://github.com/tigerkaplan)
 ## Repository
