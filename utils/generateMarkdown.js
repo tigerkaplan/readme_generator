@@ -15,12 +15,12 @@ ${licenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-* [Description](#Description)
-* [Deployment](#Deployment)
-* [Demo](##Demo)
-* [Screenshot](#Screenshot)
-* [Languages](#Languages)
-* [How to Use This Application](#HowToUseThisApplication)
+* [Description](description)
+* [Deployment](#deployment)
+* [Demo](#demo)
+* [Screenshot](#screenshot)
+* [Languages](#languages)
+* [Usage](#usage)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Author](#author)
