@@ -10,27 +10,45 @@ function licenseBadge(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 ${licenseBadge(data.license)}
+
 ## Description
 ${data.description}
-## Deployed Application URL
+
+## Table of Contents
+* [Description](#Description)
+* [Deployment](##Deployment)
+* [Demo](##Demo)
+* [Screenshot](##Screenshot)
+* [Languages](#languages)
+* [How to Use This Application](#HowToUseThisApplication)
+* [Contributors](#contributors)
+* [Testing](#testing)
+* [Author](#author)
+* [Repository](#repository)
+* [Questions](#questions)
+
+## Deployment
+To deploy this project run
+${data.deployment}
+## Demo
 ${data.link}
 ## Screenshot
 ![alt-text](${data.screenshot})
-## Table of Contents
-* [Features](#features)
-* [Languages & Dependencies](#languagesanddependencies)
-* [How to Use This Application](#HowtoUseThisApplication)
-* [Contributors](#contributors)
-* [Testing](#testing)
-* [Questions](#questions)
 ## Languages & Dependencies
 ${data.require}
-## How to Use This Application:
-${data.usage}
+## Usage
+This project can be used ${data.usage}
+## Installation
+Install ${data.title} with ${data.installation}
 ## Contributors
-${data.contribute}
-## Testing
+Contributions are always welcome!
+(https://github.com/${data.contribute})
+## Tests
 ${data.tests}
+## Author
+[@${data.username}](https://github.com/${data.username})
+## Repository
+${data.repository}
 ## Questions
 Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.username}](https://github.com/${data.username}) for my other projects on GitHub.
 `;
