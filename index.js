@@ -55,7 +55,8 @@ const questions = [
     name: "require",
     message: "Project language:",
   },
-  {//project purpose    type: "input",
+  {//project purpose    
+    type: "input",
     name: "usage",
     message: "Project usage/purpose:"
   },
