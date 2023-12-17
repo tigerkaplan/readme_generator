@@ -17,8 +17,18 @@ const questions = [
   },
   {
     type: "input",
+    name: "deployment",
+    message: "Deployment:"
+  },
+  {
+    type: "input",
     name: "link",
-    message: "URL where the deployed application:"
+    message: "Demo:"
+  },
+  {
+    type: "input",
+    name: "repository",
+    message: "GitHub repository:"
   },
   {
     type: "input",
@@ -40,12 +50,17 @@ const questions = [
     name: "installation",
     message: "Required installation/s:"
   },
+  {//Project language
+    type: "input",
+    name: "require",
+    message: "Project dependencies/language:",
+  },
   {
     type: "input",
     name: "usage",
     message: "Project usage/purpose:"
   },
-  {
+  {//Project license information
     type: "list",
     name: "license",
     message: "Project license:",
@@ -54,7 +69,7 @@ const questions = [
   {
     type: "input",
     name: "contribute",
-    message: "Contributors (GitHub usernames or emails):"
+    message: "Contributor's GitHub username/s:"
   },
   {
     type: "input",
