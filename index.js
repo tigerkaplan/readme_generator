@@ -8,56 +8,66 @@ const questions = [
   {
     type: "input",
     name: "username",
-    message: "What is your GitHub username?"
+    message: "Please provide your GitHub username:"
   },
   {
     type: "input",
     name: "email",
-    message: "What is your email address?"
+    message: "Kindly share your email address:"
+  },
+  {
+    type: "input",
+    name: "link",
+    message: "What is the URL where the deployed application can be accessed?"
   },
   {
     type: "input",
     name: "title",
-    message: "What is your project title?"
+    message: "Enter the title of your project:"
   },
   {
     type: "input",
-    name: "Description",
-    message: "Pease write a short description of your project:"
+    name: "description",
+    message: "Could you describe your project briefly?"
+  },
+  {
+    type: "input",
+    name: "screenshot",
+    message: "Could you provide the relative path to an image you'd like to use as the project's screenshot?"
   },
   {
     type: "input",
     name: "Installation",
-    message: "What command should be run to install the project?"
+    message: "What commands should be executed to install your project?"
   },
   {
     type: "input",
     name: "Usage",
-    message: "What is the project usage for?"
+    message: "For what purposes is your project intended to be used?"
   },
   {
     type: "list",
     name: "License",
-    message: "What kind of license the project have?",
+    message: "Which license type is associated with your project?",
     choices: ['None','GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
-        
   },
   {
     type: "input",
     name: "Contributing",
-    message: "Who are the contributors of this projects? (Github username or email)"
+    message: "Please specify the contributors to this project (GitHub usernames or emails):"
   },
   {
     type: "input",
     name: "Tests",
-    message: "What command should be run to test the project?"
+    message: "How can one test your project?"
   },
   {
     type: "input",
     name: "Questions",
-    message: "Do you have any question about the project?"
+    message: "Do you have any specific questions regarding the project?"
   },
 ];
+
 
 // function to write README file
 function writeToFile(fileName, data) {
