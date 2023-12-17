@@ -42,23 +42,23 @@ const questions = [
   },
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "For what purposes is your project intended to be used?"
   },
   {
     type: "list",
-    name: "License",
+    name: "license",
     message: "Which license type is associated with your project?",
     choices: ['None','GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
   },
   {
     type: "input",
-    name: "Contributing",
+    name: "contribute",
     message: "Please specify the contributors to this project (GitHub usernames or emails):"
   },
   {
     type: "input",
-    name: "Tests",
+    name: "tests",
     message: "How can one test your project?"
   },
   {
