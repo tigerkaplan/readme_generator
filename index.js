@@ -8,63 +8,63 @@ const questions = [
   {
     type: "input",
     name: "username",
-    message: "Please provide your GitHub username:"
+    message: "GitHub username:"
   },
   {
     type: "input",
     name: "email",
-    message: "Kindly share your email address:"
+    message: "GitHub email address:"
   },
   {
     type: "input",
     name: "link",
-    message: "What is the URL where the deployed application can be accessed?"
+    message: "URL where the deployed application:"
   },
   {
     type: "input",
     name: "title",
-    message: "Enter the title of your project:"
+    message: "Project title:"
   },
   {
     type: "input",
     name: "description",
-    message: "Could you describe your project briefly?"
+    message: "Brief project description :"
   },
   {
     type: "input",
     name: "screenshot",
-    message: "Could you provide the relative path to an image you'd like to use as the project's screenshot?"
+    message: "Project images / screenshot"
   },
   {
     type: "input",
-    name: "Installation",
-    message: "What commands should be executed to install your project?"
+    name: "installation",
+    message: "Required installation/s:"
   },
   {
     type: "input",
     name: "usage",
-    message: "For what purposes is your project intended to be used?"
+    message: "Project usage/purpose:"
   },
   {
     type: "list",
     name: "license",
-    message: "Which license type is associated with your project?",
+    message: "Project license:",
     choices: ['None','GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
   },
   {
     type: "input",
     name: "contribute",
-    message: "Please specify the contributors to this project (GitHub usernames or emails):"
+    message: "Contributors (GitHub usernames or emails):"
   },
   {
     type: "input",
     name: "tests",
-    message: "How can one test your project?"
+    message: "Project tests:"
   },
   {
     type: "input",
-    name: "Questions",
-    message: "Do you have any specific questions regarding the project?"
+    name: "questions",
+    message: "Questions:"
   },
 ];
 
