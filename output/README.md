@@ -1,25 +1,43 @@
 # readme_generator
 ![Github license](https://img.shields.io/badge/license-None-blue.svg)
+
 ## Description
-a profeesional readme file generator
-## Deployed Application URL
- https://github.com/tigerkaplan 
-## Screenshot
-![alt-text]()
+Creating a useful readme.md file for junior / senior developers
+
 ## Table of Contents
-* [Features](#features)
-* [Languages & Dependencies](#languagesanddependencies)
-* [How to Use This Application](#HowtoUseThisApplication)
+* [Description](#Description)
+* [Deployment](##Deployment)
+* [Demo](##Demo)
+* [Screenshot](##Screenshot)
+* [Languages](#languages)
+* [How to Use This Application](#HowToUseThisApplication)
 * [Contributors](#contributors)
 * [Testing](#testing)
+* [Author](#author)
+* [Repository](#repository)
 * [Questions](#questions)
+
+## Deployment
+To deploy this project run
+```bash npm run deploy ```
+## Demo
+
+## Screenshot
+![alt-text]()
 ## Languages & Dependencies
-undefined
-## How to Use This Application:
-generator
+NodeJs
+## Usage
+This project can be used a professional readme generator
+## Installation
+Install readme_generator with npm 
 ## Contributors
-tigerkaplan
-## Testing
-install npm
+Contributions are always welcome!
+(https://github.com/)
+## Tests
+ ```npm run test```
+## Author
+[@tigerkaplan](https://github.com/tigerkaplan)
+## Repository
+https://github.com/tigerkaplan/readme_generator
 ## Questions
-Please send your questions [here](mailto:husniyeerparun@gmail.com	?subject=[GitHub]%20Dev%20Connect) or visit [github/tigerkaplan](https://github.com/tigerkaplan) for my other projects on GitHub.
+Please send your questions [here](mailto:husniyeerparun@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/tigerkaplan](https://github.com/tigerkaplan) for my other projects on GitHub.
