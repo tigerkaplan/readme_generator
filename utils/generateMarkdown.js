@@ -42,7 +42,6 @@ This project can be used ${data.usage}
 Install ${data.title} with ${data.installation}
 ## Contributors
 Contributions are always welcome!
-(https://github.com/${data.contribute})
 ## Tests
 ${data.tests}
 ## Author
