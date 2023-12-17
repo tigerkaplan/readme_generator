@@ -25,11 +25,6 @@ const questions = [
     name: "Description",
     message: "Pease write a short description of your project:"
   },
-  // {
-  //   type: "input",
-  //   name: "Table of Contents",
-  //   message: ""
-  // },
   {
     type: "input",
     name: "Installation",
