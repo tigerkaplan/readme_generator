@@ -16,10 +16,10 @@ ${data.description}
 
 ## Table of Contents
 * [Description](#Description)
-* [Deployment](##Deployment)
+* [Deployment](#Deployment)
 * [Demo](##Demo)
-* [Screenshot](##Screenshot)
-* [Languages](#languages)
+* [Screenshot](#Screenshot)
+* [Languages](#Languages)
 * [How to Use This Application](#HowToUseThisApplication)
 * [Contributors](#contributors)
 * [Testing](#testing)
@@ -34,7 +34,7 @@ ${data.deployment}
 ${data.link}
 ## Screenshot
 ![alt-text](${data.screenshot})
-## Languages & Dependencies
+## Languages
 ${data.require}
 ## Usage
 This project can be used ${data.usage}
