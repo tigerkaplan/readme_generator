@@ -5,7 +5,7 @@
 The readme.md file generator is a user friendy duide to generate easily peofessional documents fr GitHub. The project has clear instructions for setup, usage, contributionsand other required and optional sections for a professional lookimg readme file. It isdesigned to ensure everyone can easily understand and using project functionalities.
 
 ## Table of Contents
-* [Description](description)
+* [Description](#description)
 * [Deployment](#deployment)
 * [Demo](#demo)
 * [Screenshot](#screenshot)
@@ -36,7 +36,7 @@ Javascript, NodeJs
 ## Usage
 This project can be used The project allows that to create a readme.md file as professionally as well as not spending long time for projects.
 ## Installation
-Install readme_generator with this project locally, firstly clone the repository to your local machine and install npm   ``` npm install ```
+Install readme_generator with this project locally, firstly clone the repository and run the following command…   ``` npm install ```
 ## Contributors
 Contributions are always welcome!
 ## Tests
