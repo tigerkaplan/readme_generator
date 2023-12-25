@@ -15,7 +15,7 @@ ${licenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-* [Description](description)
+* [Description](#description)
 * [Deployment](#deployment)
 * [Demo](#demo)
 * [Screenshot](#screenshot)
