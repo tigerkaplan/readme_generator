@@ -5,7 +5,7 @@
 The readme.md file generator is a user friendy duide to generate easily peofessional documents fr GitHub. The project has clear instructions for setup, usage, contributionsand other required and optional sections for a professional lookimg readme file. It isdesigned to ensure everyone can easily understand and using project functionalities.
 
 ## Table of Contents
-* [Description](description)
+* [Description](#description)
 * [Deployment](#deployment)
 * [Demo](#demo)
 * [Screenshot](#screenshot)
